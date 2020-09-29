@@ -44,7 +44,7 @@
   </li>
   </li>
   <li class="nav-item">
-    <a class="nav-link <?php if($numero=='3'){echo 'active';} ?>" href="<?php echo SERVERURL;?>property/3/1"><div class="row justify-content-center">
+    <a class="nav-link <?php if($numero=='4'){echo 'active';} ?>" href="<?php echo SERVERURL;?>property/4/1"><div class="row justify-content-center">
     <img width="50" height="50" src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR4.png">
 </div>SECTOR SIDER</a>
   </li>

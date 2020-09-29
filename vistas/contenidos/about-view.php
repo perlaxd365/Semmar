@@ -19,7 +19,8 @@
  
 
 <div class="about_area">
-        <div class="container">
+    <div class="whole-wrap">
+        <div class="container box_1170">
             <div class="row">
                 <div class="col-lg-5">
                         <div class="card" >
@@ -69,77 +70,30 @@
                     </div>
                 </div>
             </div>
+
+    <!-- INICIO DE MISION Y VISION -->
+            <div class="section-top-border">
+				<h3 class="mb-30">MISIÓN</h3>
+				<div class="row">
+					<div class="col-lg-12">
+						<blockquote class="generic-blockquote">
+                        Buscamos satisfacer y solucionar las necesidades de las industrias en general, brindando productos y servicios de excelente calidad, eficacia y seguridad; con el objetivo de 
+                        alcanzar siempre la satisfacción de nuestros clientes y la de nuestros trabajadores. 
+						</blockquote>
+					</div>
+				</div>
+				<h3 class="mb-30">VISION</h3>
+				<div class="row">
+					<div class="col-lg-12">
+						<blockquote class="generic-blockquote">
+                        Ser la mejor alternativa en servicios y fabricaciones para el sector metalmecánica a nivel regional, por el reconocimiento de nuestros productos y servicios, gracias a la calidad y eficacia que brindamos.
+						</blockquote>
+					</div>
+				</div>
+			</div>
         </div>
-    </div>
-    <!-- about_area_end  -->
+    <!-- FIN DE MISION Y VISION -->
 
-
-    <div class="whole-wrap">
-        <div class="container box_1170">
-    <div class="section-top-border">
-                <h3 class="mb-30">Infraestructura</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single-defination"><a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen1.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen1.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Torno</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                          
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination"><a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen2.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen2.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Fresadora</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination">
-                        <a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen3.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen3.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Definition</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                       
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination"><a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen1.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen1.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Torno</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                          
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination"><a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen2.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen2.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Fresadora</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-defination">
-                        <a href="<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen3.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?php echo SERVERURL;?>vistas/img/INFRAESTRUCTURA/imagen3.jpg);"></div>
-                        </a>
-                            <h4 class="mb-20">Definition</h4>
-                            <p>cacaascsajc jad hbj abhj abha sjjhjbh</p>
-                       
-                        </div>
-                    </div>
-                </div>
-            </div>
-                </div>
-            </div>
-    
 
     <div class="whole-wrap">
         <div class="container box_1170">
@@ -279,3 +233,13 @@
             </div>
         </div>
     </div>
+
+
+        </div>
+    </div>
+    <!-- about_area_end  -->
+    
+
+    
+
+    

@@ -153,7 +153,7 @@
                         </div>
                         <h3>Sector Siderurgico</h3>
                         <p>Fabricacion y servicios para la industria siderúrgica.</p>
-                        <a href="<?php echo SERVERURL;?>property/3/1">Ver Proyectos</a>
+                        <a href="<?php echo SERVERURL;?>property/4/1">Ver Proyectos</a>
                     </div>
                 </div>
             </div>
