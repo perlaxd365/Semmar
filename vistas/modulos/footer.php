@@ -5,9 +5,9 @@
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget ">
                             <h3 class="footer_title">
-                                About Us
+                               ¿Quiénes Somos?
                             </h3>
-                            <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
+                            <p>Somos una empresa metalmecánica con más de 25 años de experiencia, dedicandonos a dar soluciones integrales de calidad a través de la fabricación , maquinado, mantenimiento de equipos pesados y soldadura de estructuras metálicas para los diferentes sectores industriales.</p>
                             <div class="footer_logo">
                                 <a href="#">
                                     <img src="img/footer_logo.png" alt="">
@@ -20,11 +20,12 @@
                             <h3 class="footer_title">
                                 Contact Info
                             </h3>
-                            <p>Address :Your address goes
-                                here, your demo address.</p>
+                            <p>Direccion:Zona Industrial Los Pinos H-5,
+Panamericana Norte, Chimbote.</p>
                             <ul>
-                                <li><a href="#">Phone : +8880 44338899</a></li>
-                                <li><a href="#">Email : info@colorlib.com</a></li>
+                                <li><a href="#">Cel : +51 925 924 181</a></li>
+                                <li><a href="#">Cel  : +51 982 539 237</a></li>
+                                <li><a href="#">Email : ventas@semmarmanufacturing.com</a></li>
                             </ul>
 
                         </div>

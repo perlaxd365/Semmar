@@ -6,7 +6,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img width="190" height="40" src="<?php echo SERVERURL;?>vistas/img/logopng.png" alt="">
+                                    <img width="190" height="40" src="<?php echo SERVERURL;?>vistas/img/sm.png" alt="">
                                 </a>
                             </div>
                         </div>

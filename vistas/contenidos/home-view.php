@@ -52,24 +52,16 @@
                         <div class="card" >
                             <img class="card-img-top" style=" max-width: 490px; max-height: 490px /* Also works with percentage value like 100% " src="<?php echo SERVERURL ?>vistas/img/sectores/DAGOBERTO.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                            <h5 class="card-title">SOCIO FUNDADOR </h5>
-                                           <p class="card-text">ING. DAGOBERTO CASTILLO OTERO </p>
-                                            
-                    <div class="about_info pl-70">
-
-                        <div class="info_inner">
-
-                                            <div class="customer_info d-flex">
-                                
+                                            <h5 class="card-title">SOCIO FUNDADOR</h5>
+                                           <p class="card-text"> ING. DAGOBERTO CASTILLO OTERO </p>
+                            <div class="customer_info d-flex">
                                 <div class="single_info d-flex align-items-baseline">
-                                    <span style="color: #3390FF" ><span class="counter" style="">25</span> </span>
-                                    <h4> AÑOS DE EXPERIENCIA</h4>
+                                    <h3 class="counter">25</h3>
+                                    <p> &nbsp; Años de Experiencia</p>
                                 </div>
                             </div>
-                        </div>
-                        </div>
                                            <br>
-                                           <a href="<?php echo SERVERURL?>about" class="btn btn-primary">Ver Más </a>
+                                           <a href="#" class="btn btn-primary">Ver Más </a>
                                  </div>
                         </div>
                            
@@ -78,19 +70,35 @@
                 <div class="col-lg-6">
                     <div class="about_info pl-70">
                         <div class="section_title mb-55">
-                            <h3  style="color: #0F60C0; ">Semmar<br>
-                                <span   style="color: black">Manufacturing</span></h3>
+                            <h3>Semmar<br>
+                                <span>Manufacturing</span></h3>
                             <div class="devider">
                                 <span></span>
                                 <span></span>
                             </div>
                         </div>
-                        <div class="info_inner text-center">
-                            <li> SEMMAR, es una empresa metalmecánica con más de 25 años de experiencia, dedicandonos  a dar  soluciones integrales de calidad a través de la fabricación , maquinado,  mantenimiento de equipos pesados y soldadura de estructuras metálicas para  los diferentes sectores  industriales.
+                        <div class="info_inner">
+                            <p>Semmar Manufacturing S.A.C - SEMMAR, es una empresa metalmecánica con más de 25 años de experiencia, dedicandonos  a dar  soluciones integrales de calidad a través de la fabricación , maquinado,  mantenimiento de equipos pesados y soldadura de estructuras metálicas para  los diferentes sectores  industriales.
 
                             Contamos con un staff de profesionales calificados,dedicados a brindar  un servicio de precisión, calidad y seguridad durante el desarrollo de los trabajos, garantizando la optimización de sus procesos productivos.
-                            </li>
-                          
+                          </p>
+                          <h3>POLITICA DEL SISTEMA INTEGRADO DE GESTION</h3>
+                            <ul>
+                                <li>La prevención en seguridad y salud en el trabajo de todos nuestros trabajadores.</li>
+                                <li>Fomentar la responsabilidad social, logrando las mejores relaciones con nuestros colaboradores y con las comunidades involucradas en nuestras operaciones.</li>
+                                <li>Fomentar medidas de prevención para un comercio seguro con nuestros clientes.</li>
+                           
+                            </ul>
+                            <!-- <div class="customer_info d-flex">
+                                <div class="single_info d-flex align-items-baseline">
+                                    <span class="counter">120</span>
+                                    <p>Proytectos</p>
+                                </div>
+                                <div class="single_info d-flex align-items-baseline">
+                                    <span ><span class="counter">500</span>+</span>
+                                    <p>Clientes</p>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -210,66 +218,6 @@
     </div>
     <!-- appertment_area_end  -->
     
-    <!-- testimonial_area  -->
-    <div class="testimonial_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-9">
-                                    <div class="single_testmonial text-center">
-                                        <div class="author_thumb">
-                                            <img src="<?php echo SERVERURL;?>vistas/img/testmonial/author.png" alt="">
-                                        </div>
-                                        <div class="testmonial_author">
-                                            <h3>Margaret Lawson</h3>
-                                            <span>Creative Director</span>
-                                        </div>
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-9">
-                                    <div class="single_testmonial text-center">
-                                        <div class="author_thumb">
-                                            <img src="<?php echo SERVERURL;?>vistas/img/testmonial/author2.png" alt="">
-                                        </div>
-                                        <div class="testmonial_author">
-                                            <h3>Margaret Lawson</h3>
-                                            <span>Creative Director</span>
-                                        </div>
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-9">
-                                    <div class="single_testmonial text-center">
-                                        <div class="author_thumb">
-                                            <img src="<?php echo SERVERURL;?>vistas/img/testmonial/author2.png" alt="">
-                                        </div>
-                                        <div class="testmonial_author">
-                                            <h3>Margaret Lawson</h3>
-                                            <span>Creative Director</span>
-                                        </div>
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /testimonial_area  -->
     <!-- quotation_area_start  -->
     <div class="quotation_area">
         <div class="container">
@@ -277,18 +225,18 @@
                 <div class="col-lg-12">
                     <div class="quotation_text d-flex align-items-center justify-content-between">
                         <div class="quotation_info">
-                            <h3>Get a free <br>
-                                quotation Today!</h3>
-                                <p>Have any questions in mind?</p>
-                            <a href="#" class="boxed-btn3">Contact Us</a>
+                            <h3>Contáctanos</h3>
+                                <p>Información y detalles</p>
+                            <a href="#" class="boxed-btn3">LLamar</a>
                         </div>
                         <div class="sayhello d-flex align-items-center">
                             <div class="icon">
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="num">
-                                <span>say Hello,</span>
-                                <h3>+44 563 986 4785 </h3>
+                                <span>Llamanos.</span>
+                                <h3>+51 925 924 181</h3>
+                                <h3>+51 982 539 237</h3>
                             </div>
                         </div>
                     </div>
@@ -296,68 +244,4 @@
             </div>
         </div>
     </div>
-
-    <!-- our_latest_news_area_Start  -->
-    <div class="our_latest_news_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center mb-80">
-                        <h3>Our Latest News</h3>
-                        <div class="devider">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="news_active owl-carousel">
-                        <div class="single_news">
-                            <div class="thumb">
-                                <a href="#">
-                                    <img src="img/news/1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="news_info d-flex">
-                                <div class="date">
-                                    <p><span>24</span> <br>
-                                        Nov</p>
-                                </div>
-                                <div class="news_meta">
-                                    <span>Porperties</span>
-                                    <a href="#"><h3>Footprints in Time:
-                                        House in Kurashiki, Japan</h3></a>
-                                    <a class="read_more" href="#">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_news">
-                            <div class="thumb">
-                                <a href="#">
-                                    <img src="img/news/2.png" alt="">
-                                </a>
-                            </div>
-                            <div class="news_info d-flex">
-                                <div class="date">
-                                    <p><span>24</span> <br>
-                                        Nov</p>
-                                </div>
-                                <div class="news_meta">
-                                    <span>Porperties</span>
-                                    <a href="#">
-                                        <h3>Footprints in Time:
-                                            House in Kurashiki, Japan</h3>
-                                    </a>
-                                    <a class="read_more" href="#">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- fin de question -->

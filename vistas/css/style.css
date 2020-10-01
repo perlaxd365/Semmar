@@ -2358,7 +2358,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/contact/contact3.jpg);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
@@ -2970,7 +2970,7 @@ h3 {
   height: 100%;
   right: 0;
   bottom: 0;
-  background-image: url(../img/banner/quotation_bg.png);
+  background-image: url(../img/contact/contact3.JPG);
   background-repeat: no-repeat;
   content: '';
   background-size: cover;
@@ -2980,7 +2980,7 @@ h3 {
 .quotation_area .quotation_text {
   border: 1px solid #f1f1f1;
   padding: 80px 90px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 767px) {
