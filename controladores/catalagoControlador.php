@@ -297,22 +297,25 @@ public function eliminar_proyecto_controlador(){
 	$idCatalago=mainModel::decryption($_POST['id_catalago']);
 	$path=mainModel::decryption($_POST['path']);
 	$idCatalago=mainModel::limpiar_cadena($idCatalago);
-	$path=mainModel::limpiar_cadena($path);
+	$carpeta=mainModel::limpiar_cadena($path);
 	$eliminar=catalagoModelo::eliminar_catalago_modelo($idCatalago);
 	if ($eliminar->rowCount()>=1) {
 		
 
-		$files = glob($path.'/*'); //obtenemos todos los nombres de los ficheros
-foreach($files as $file){
-    if(is_file($file))
-    unlink($file); //elimino el fichero
-}
+		foreach(glob($carpeta . "/*") as $archivos_carpeta){             
+			if (is_dir($archivos_carpeta)){
+			  rmDir_rf($archivos_carpeta);
+			} else {
+			unlink($archivos_carpeta);
+			}
+		  }
+		  rmdir($carpeta);
 
 
 		$alerta=[
 										"Alerta"=>"recargar",
 										"Titulo"=>"Proyecto Eliminado",
-										"Texto"=>"El proyecto fue eliminado correctamente ",
+										"Texto"=>"El proyecto fue eliminado correctamente $carpeta",
 										"Tipo"=>"success"
 									];
 	}else{
@@ -424,6 +427,7 @@ public function paginador_proyectos_controlador($pagina,$registros,$busqueda){
 			<td>
 			';
 			$path ="././vistas/img/catalago/".$rows['id_catalago'];
+			$pathDelete =".././vistas/img/catalago/".$rows['id_catalago'];
 			if(file_exists($path)){
 				$directorio = opendir($path);
 				while ($archivo = readdir($directorio))
@@ -450,7 +454,7 @@ public function paginador_proyectos_controlador($pagina,$registros,$busqueda){
 			<td>
 			<form action="'.SERVERURL.'/ajax/catalagoAjax.php" method="POST" class="FormularioAjax" data-form="delete" entype="multipart/form-data" autocomplete="off">
 			<input type="hidden" value="'.mainModel::encryption($rows['id_catalago']).'" name="id_catalago">
-			<input type="hidden" value="'.mainModel::encryption($path).'" name="path">
+			<input type="hidden" value="'.mainModel::encryption($pathDelete).'" name="path">
 			<input type="submit" class="btn btn-danger" value="Eliminar">
 			<div class="RespuestaAjax"></div>
 			</form>
