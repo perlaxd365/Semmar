@@ -1,5 +1,5 @@
 <?php
-if ($peticionAjax) {
+if (isset($peticionAjax)) {
 	require_once "../core/configAPP.php";
 }else{
 	require_once "./core/configAPP.php";

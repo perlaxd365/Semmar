@@ -5,12 +5,12 @@
                     <div class="row align-items-center no-gutters" >
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html">
-                                    <img width="190" height="40" src="<?php echo SERVERURL;?>vistas/img/sm.png" alt="">
+                                <a href="<?php echo SERVERURL;?>home/">
+                                    <img width="190" height="40" src="<?php echo SERVERURL;?>vistas/img/logopng.png" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-10 col-lg-6">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
@@ -20,26 +20,57 @@
                                             <ul class="submenu">
                                                     <li><a href="<?php echo SERVERURL;?>facilities/">Sectores</a></li>
                                                     <li><a href="<?php echo SERVERURL;?>property/1/1">Proyectos</a></li>
+                                                    
+                        <?php if(isset($_SESSION['tipo_usuario']) && isset($_SESSION['token_semmar'])): ?>
                                                     <li><a href="<?php echo SERVERURL;?>elements/">Elementos</a></li>
+                                                    
+                        <?php endif; ?>
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo SERVERURL;?>contact/">Contacto</a></li>
+                                        
+                        <?php if(isset($_SESSION['tipo_usuario']) && isset($_SESSION['token_semmar'])): ?>
+                                        <li><a href="<?php echo SERVERURL;?>listado/">listado</a></li>
                                         <li><a href="<?php echo SERVERURL;?>register/">Registro</a></li>
-                                        <li><a href="<?php echo SERVERURL;?>listado/">Listado</a></li>
-                                    </ul>
+                        <?php else: ?>
+                                        <li></li> 
+                                        <li></li> 
+                                        <li></li> 
+                                        <li></li> 
+                                        <li></li>
+                                        <li></li> 
+                                        <li></li> 
+                                        <li></li> 
+                        <?php endif; ?>
+                                        <li></li> 
+                                        <li></li> 
+                                        
+                        <?php if(isset($_SESSION['tipo_usuario']) && isset($_SESSION['token_semmar'])): ?>
+                                        <li>
+                                         <a class="btn-exit-system"  href="<?php echo $lc->encryption($_SESSION['token_semmar']);?>">Cerrar Sesión</a>
+                                          </li> 
+                            <li> <a href="#">Llamanos +923 243434</a></li>
+                                          
+                            <?php else:?>
+                            <li>
+                            
+                            <a href="<?php echo SERVERURL?>login/">Login</a>
+                            
+                            </li>
+                            <li> <a href="#">Llamanos +923 243434</a></li>
+              
+                                <?php endif;?>
+                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
-                            <div class="social_wrap d-flex align-items-center justify-content-end">
-                                <div class="login_text">
-                                    <a href="#">Login</a>
-                                </div>
-                                <div class="number">
-                                    <p>LLamanos <a href="#">+923243434</a></p>
-                                </div>
-                            </div>
-                        </div>
+
+                       
+                        
+                        
+
+
+
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>

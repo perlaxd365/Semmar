@@ -4,12 +4,19 @@
 
 
     <?php include "modulos/link.php";?>
+    <?php session_start(['name'=>'semmar']); ?>
 
 
 <body>
     <!-- header-start -->
     
-    <?php include "modulos/header.php";?>
+    
+    <?php
+    
+    include "./controladores/loginControlador.php";
+    $lc = new loginControlador();
+     include "modulos/header.php";?>
+
     <!-- header-end -->
 
 
@@ -36,8 +43,6 @@
 
 
 
-
-
    require_once $vistasR;
     } ?>
 
@@ -45,6 +50,7 @@
 
     <!-- footer_start  -->
     <?php 
+    
             include 'modulos/footer.php';
     ?>
     <!-- footer_end  -->
@@ -53,6 +59,7 @@
     <!-- JS here -->
   <?php 
             include 'modulos/script.php';
+             include "modulos/logoutScript.php";
   ?>
 
 </body>
@@ -171,6 +178,18 @@ el.hover(function(){
        <img width="60" src="<?php echo SERVERURL;?>vistas/img/mas.png" alt="">
     </div>
     <ul class="fab-options">
+    <?php if(isset($_SESSION['tipo_usuario'])): ?>
+    
+        <li>
+            <span class="fab-label">AÑADIR PROYECTO</span>
+            <div class="fab-icon-holder">
+                <i class="fas fa-comment-alt ">
+                    
+                    <a href="<?php echo SERVERURL;?>register/">  <img width="50" src="<?php echo SERVERURL;?>vistas/img/anadir.png" alt=""></a>
+                </i>
+            </div>
+        </li>
+    <?php else:?>
         <li>
             <span class="fab-label">FACEBOOK</span>
             <div class="fab-icon-holder">
@@ -206,6 +225,7 @@ el.hover(function(){
                 </i>
             </div>
         </li>
+    <?php endif;?>
     </ul>
 </div>
     <!--CSS-->

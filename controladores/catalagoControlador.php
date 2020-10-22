@@ -902,8 +902,7 @@ public function proyectos_general_controlador($pagina,$registros){
 		$contador=$inicio+1;
 		foreach ($datos as $rows) {
 		
-			$tabla.='
-               <div class="single_appertment">';
+			$tabla.='<div class="single_appertment">';
 
 			$path ="././vistas/img/catalago/".$rows['id_catalago'];
 			$i = 0;
