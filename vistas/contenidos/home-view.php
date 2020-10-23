@@ -9,7 +9,7 @@
                                 <span></span>
                                 <h3>SOLUCIONES INTEGRALES</h3>
                                     <p>Desarrollamos soluciones integrales para sus necesidades de mejora  y optimización de sus procesos productivos.</p>
-                                <a href="#" class="boxed-btn3">View Project</a>
+                                <a href="<?php echo SERVERURL?>property/1/1" class="boxed-btn3">Ver Proyectos</a>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                                 <span></span>
                                 <h3>CALIDAD</h3>
                                     <p>Garantizamos la calidad  de nuestros productos y servicios, así como la satisfacción de nuestros clientes.</p>
-                                <a href="#" class="boxed-btn3">View Project</a>
+                                    <a href="<?php echo SERVERURL?>property/1/1" class="boxed-btn3">Ver Proyectos</a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                                 <span></span>
                                 <h3>EXPERIENCIA</h3>
                                     <p>Semmar es una empresa con más de  25 años  de experiencia en servicios metalmecánicos. </p>
-                                <a href="#" class="boxed-btn3">View Project</a>
+                                    <a href="<?php echo SERVERURL?>property/1/1" class="boxed-btn3">Ver Proyectos</a>
                             </div>
                         </div>
                     </div>
@@ -108,6 +108,42 @@
 
     <!-- about_area_end  -->
 
+
+
+    <!-- Homologaciones  -->
+    <div class="property_certificates">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="section_title">
+                        <h3>NUESTRAS
+                            <span>HOMOLOGACIONES</span></h3>
+                        <div class="devider">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="certificate_listing d-flex justify-content-between align-items-center">
+        <div class="row align-items-center">
+              
+              <img style="display: block; max-width:320px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion1.jpg" alt="">
+         
+              
+        <img style="display: block; max-width:430px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion2.png" alt="">
+                              
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Homologaciones end  -->
+
     <!-- our_facilitics_area_start  -->
    
     <div class="our_facilitics_area">
@@ -140,7 +176,7 @@
                             <img width="100" height="100"  src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR2.png" >
                         </div>
                         <h3>Sector Minero</h3>
-                        <p></p>
+                        <p>Servicio  y Fabricaciones  de diferentes productos para el sector minero.</p>
                         <a href="<?php echo SERVERURL;?>property/2/1" >Ver Proyectos</a>
                     </div>
                 </div>

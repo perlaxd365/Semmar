@@ -203,7 +203,7 @@ el.hover(function(){
             <div class="fab-icon-holder">
                 <i class="fas fa-video">
                     
-                    <a href="">  <img width="50" src="<?php echo SERVERURL;?>vistas/img/whatsapp.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send?phone=+51982539237">  <img width="50" src="<?php echo SERVERURL;?>vistas/img/whatsapp.png" alt=""></a>
                 </i>
             </div>
         </li>

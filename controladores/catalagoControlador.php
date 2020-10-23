@@ -315,7 +315,7 @@ public function eliminar_proyecto_controlador(){
 		$alerta=[
 										"Alerta"=>"recargar",
 										"Titulo"=>"Proyecto Eliminado",
-										"Texto"=>"El proyecto fue eliminado correctamente $carpeta",
+										"Texto"=>"El proyecto fue eliminado correctamente ",
 										"Tipo"=>"success"
 									];
 	}else{
@@ -633,9 +633,6 @@ public function paginador_catalago_controlador($pagina,$registros,$numero,$secto
                         	<a href="'.SERVERURL.'detalle/'.$rows['id_catalago'].'">
                                 <h5>Nombre de Cliente: '.$rows['cliente'].'</h5>
                             </a>
-                            <ul>
-                                <li>Fecha: '.$rows['fecha_proyecto'].'</li>
-                            </ul>
                         </div>
                     </div>
                 </div>';
@@ -787,7 +784,7 @@ public function paginador_detalle_controlador($pagina,$registros,$idCatalago){
                      <div class="single-gallery-image" style="background: url('.SERVERURL.'vistas/img/catalago/'.$idCatalago.'/'.$archivo.');"></div>
                   </a>
                   </div>
-               </div>
+				  </div>
 						';
 
 					}
@@ -869,6 +866,27 @@ public function paginador_detalle_controlador($pagina,$registros,$idCatalago){
             }
             return $html;
 	}
+	public function homologaciones(){
+
+		$html="";
+
+            $path ="././vistas/img/homologacion";
+                 if(file_exists($path)){
+                $directorio = opendir($path);
+                while ($archivo = readdir($directorio))
+                {
+                    $data=mainModel::encryption($path."/".$archivo);
+                    if (!is_dir($archivo)){
+                       
+                       $html.='
+
+                               <img style="display: block; max-width:430px; max-height:470px; width: auto; height: auto;" src="'. SERVERURL.'vistas/img/homologacion/'.$archivo.'" alt="">
+                         ';
+                    }
+                }
+            }
+            return $html;
+	}
 
 
 
@@ -930,10 +948,6 @@ public function proyectos_general_controlador($pagina,$registros){
                     <a href="'.SERVERURL.'detalle/'.$rows['id_catalago'].'">
                         <h5>Cliente: '.$rows['cliente'].'</h5>
                     </a>
-                    <ul>
-                        <li>Fecha: '.$rows['fecha_proyecto'].'</li>
-                        
-                    </ul>
                 </div>
             </div>';
             }
@@ -1100,10 +1114,24 @@ public function sectores_categoria($pagina,$registros){
 	if ($total>=1 && $pagina<=$Npaginas) {
 		$contador=$inicio+1;
 		foreach ($datos as $rows) {
+			if($rows['nombre_sector']=="SIDERURGICO"){
+				$url="property/4/1";
+			}elseif($rows['nombre_sector']=="PESCA"){
+
+				$url="property/1/1";
+			}
+			elseif($rows['nombre_sector']=="MINERIA"){
+
+				$url="property/2/1";
+			}
+			elseif($rows['nombre_sector']=="AGROINDUSTRIA"){
+
+				$url="property/3/1";
+			}
 
 			$tabla.='
                         <li>
-                           <a href="#" class="d-flex">
+                           <a href="'.SERVERURL.''.$url.'" class="d-flex">
                               <p>'.$rows['nombre_sector'].'</p>';
             $fila=$rows['nombre_sector'];
             $consulta=mainModel::ejecutar_consulta_simple("SELECT * FROM catalago ca INNER JOIN sector se ON ca.id_sector=se.id_sector  where nombre_sector='$fila'");
@@ -1206,7 +1234,7 @@ public function minicatalago_categoria($pagina,$registros){
 
 			 
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="'.SERVERURL.'detalle/'.$rows['id_catalago'].'">
                               <h3>'.$rows['nombre_proyecto'].'</h3>
                            </a>
                            <p>'.$rows['fecha_proyecto'].'</p>

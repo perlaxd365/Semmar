@@ -49,7 +49,7 @@
                                         <li>
                                          <a class="btn-exit-system"  href="<?php echo $lc->encryption($_SESSION['token_semmar']);?>">Cerrar Sesión</a>
                                           </li> 
-                            <li> <a href="#">Llamanos +923 243434</a></li>
+                            <li> <a href="#">Llamanos +925 924 181</a></li>
                                           
                             <?php else:?>
                             <li>
@@ -57,7 +57,7 @@
                             <a href="<?php echo SERVERURL?>login/">Login</a>
                             
                             </li>
-                            <li> <a href="#">Llamanos +923 243434</a></li>
+                            <li> <a href="#">Llamanos +925 924 181</a></li>
               
                                 <?php endif;?>
                                      </ul>

@@ -36,24 +36,24 @@ Panamericana Norte, Chimbote.</p>
                                 Important Link
                             </h3>
                             <ul>
-                                <li><a href="#">View Project</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Testimonial</a></li>
-                                <li><a href="#">Proparties</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Proyectos</a></li>
+                                <li><a href="#">Sectores</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Nosotros</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Newsletter
+                                Ponerse en contacto
                             </h3>
                             <p class="newsletter_text">
-                                Heaven fruitful doesn't over lesser in days. Appear creeping seasons
+                                Contactanos a través de email.
                             </p>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
+                            <form action="<?php echo SERVERURL?>contact" method="POST" class="newsletter_form">
+                                <input name="email" type="text" placeholder="Ingresar Email">
                                 <button type="submit"> <i class="fa fa-paper-plane"></i> </button>
                             </form>
                         </div>
@@ -68,7 +68,7 @@ Panamericana Norte, Chimbote.</p>
                     <div class="col-lg-8">
                         <p class="copy_right">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Esta pagina fue diseñada por <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Cesar Raul Baca</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </p>
                     </div>

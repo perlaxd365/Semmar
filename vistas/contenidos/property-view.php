@@ -6,7 +6,7 @@
                 <div class="col-xl-12">
                     <div class="bradcam_text">
                         <h3>Proyectos</h3>
-                        <p> <a href="index.html">Home</a> / Property</p>
+                        <p> <a href="<?php echo SERVERURL?>home">INICIO</a></p>
                     </div>
                 </div>
             </div>
@@ -30,23 +30,23 @@
      ?>
     <a class="nav-link <?php if($numero=='1'){echo 'active';} ?>"  href="<?php echo SERVERURL;?>property/1/1" ><div class="row justify-content-center">
     <img width="50" height="50" src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR1.png">
-</div>SECTOR PESCA</a>
+</div>SECTOR PESQUERO</a>
   </li>
   <li class="nav-item">
     <a class="nav-link <?php if($numero=='2'){echo 'active';} ?>"  href="<?php echo SERVERURL;?>property/2/1" ><div class="row justify-content-center">
     <img width="50" height="50" src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR2.png" >
-</div>SECTOR MINA</a>
+</div>SECTOR MINERO</a>
   </li>
   <li class="nav-item">
     <a class="nav-link <?php if($numero=='3'){echo 'active';} ?>" href="<?php echo SERVERURL;?>property/3/1"><div class="row justify-content-center">
     <img width="50" height="50" src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR3.png" >
-</div>SECTOR AGRO</a>
+</div>SECTOR AGROINDUSTRIAL</a>
   </li>
   </li>
   <li class="nav-item">
     <a class="nav-link <?php if($numero=='4'){echo 'active';} ?>" href="<?php echo SERVERURL;?>property/4/1"><div class="row justify-content-center">
     <img width="50" height="50" src="<?php echo SERVERURL;?>vistas/img/sectores/SECTOR4.png">
-</div>SECTOR SIDER</a>
+</div>SECTOR SIDERURGICO</a>
   </li>
 </ul>
 

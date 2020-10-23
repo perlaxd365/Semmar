@@ -24,7 +24,8 @@
                     <div id="map" style="height: 480px; position: relative;"> </div>
                     <script>
                         function iniciarMap(){
-    var coord = {lat:-34.5956145 ,lng: -58.4431949};
+                
+    var coord = {lat:-9.042699 ,lng: -78.605660};
     var map = new google.maps.Map(document.getElementById('map'),{
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.SATELLITE, 
@@ -32,7 +33,8 @@
     });
     var marker = new google.maps.Marker({
       position: coord,
-      map: map
+      map: map,
+      title:'SEMMAR'
     });
 }
                     </script>
@@ -61,7 +63,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter'" placeholder="Email">
+                                        <input <?php if(isset($_POST["email"])){echo "value=".$_POST["email"];}?> class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter'" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-12">

@@ -7,7 +7,7 @@
                 <div class="col-xl-12">
                     <div class="bradcam_text">
                         <h3>NOSOTROS</h3>
-                        <p> <a href="<?php echo SERVERURL?>home">INICIO</a> / NOSOTROS</p>
+                        <p> <a href="<?php echo SERVERURL?>home">INICIO</a></p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,14 @@
         <div class="container box_1170">
 
             <div class="section-top-border">
-                <h3>NUESTRA INFRAESTRUCTURA</h3>
+                        <div class="section_title mb-55">
+                            <h3>NUESTRA <br>
+                                <span>INFRAESTRUCTURA</span></h3>
+                            <div class="devider">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
                 
                 <div class="col-lg-12">
                     <div class="about_info pl-70">
@@ -126,7 +133,7 @@
                                 <li>Taladro Radial</li>
                                 <li>Máquinas de soldar MIG/TIG</li>
                                 <li>Máquinas de Oxicorte</li>
-                                <li>Sierra eléctricq</li>
+                                <li>Sierra eléctrica</li>
                             </ul>
                             <!-- <div class="customer_info d-flex">
                                 <div class="single_info d-flex align-items-baseline">
