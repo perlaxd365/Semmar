@@ -101,7 +101,7 @@
 
                
             <div class="section-top-border text-right">
-                <h3 class="mb-30">SECTOR SIDERURGICO</h3>
+                <h3 class="mb-30">SECTOR MINERO</h3>
                 <div class="row">
                     <div class="col-md-9">
                         <p class="text-right">

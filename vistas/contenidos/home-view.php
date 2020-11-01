@@ -126,20 +126,21 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="certificate_listing d-flex justify-content-between align-items-center">
-        <div class="row align-items-center">
+                      <div class="row align-items-center">
               
-              <img style="display: block; max-width:320px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion1.jpg" alt="">
+                            <img style="display: block; max-width:320px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion1.jpg" alt="">
          
               
-        <img style="display: block; max-width:430px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion2.png" alt="">
+                            <img style="display: block; max-width:430px; max-height:470px; width: auto; height: auto;" src="<?php echo SERVERURL?>vistas\img\homologacion\homologacion2.png" alt="">
                               
 
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+ 
     <br>
     <br>
     <!-- Homologaciones end  -->
